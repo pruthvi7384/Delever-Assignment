@@ -1,0 +1,327 @@
+/* =============Google Font Import=========== */
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Yanone+Kaffeesatz:wght@400;600&display=swap');
+/* ==========X===Google Font Import===X======== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+/* ============NavBar Component=========== */
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar .logo p {
+        color: #BDC3C7;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .navbar .Icon i{
+        color: #444444;
+        font-size: 20px;
+        cursor: pointer;
+    }
+/* ============NavBar Component=========== */
+
+/* ===========Home Banner========= */
+    .home_banner{
+        width: 100%;
+    }
+    .home_banner .home_image{
+        background-color: #FADBD8 ;
+    }
+    .home_banner .home_image img{
+        width: 100%;
+        height: 300px;
+        object-fit: fill;
+       
+    }
+    .home_banner .card_div{
+        position: absolute;
+        top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .home_banner .card_div .first_card{
+        flex-basis: 25%;
+        margin: 20px
+    }
+    .home_banner .card_div .second_card{
+        flex-basis: 25%;
+        margin: 20px
+    }
+    .home_banner .card_div .first_card .first{
+        margin-top: 60px;
+        padding: 20px;
+        background-color: #0000FF;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    .home_banner .card_div .second_card .second{
+        padding: 20px;
+        background-color: #000080;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    .home_banner .card_div .first_card .first h1,.home_banner .card_div .second_card .second h1{
+        font-weight: bold;
+    }
+/* ========X===Home Banner===X====== */
+
+/* ===========Services=========== */
+    .services{
+        width:100%;
+        margin-top: 250px;
+    }
+    .services .services_heading p{
+        text-align: center;
+        color: #111111;
+        font-weight: bold;
+    }
+    .services .services_contaent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        background-color: #0000FF;
+        padding: 30px 130px;
+        color: #ffffff;
+    }
+    .services .services_contaent .description, .services .services_contaent .description_Cards{
+        flex-basis: 50%;
+        padding: 0px 10px;
+    }
+    .services .services_contaent .description h3{
+        font-size: 18px;
+    }
+    .services .services_contaent .description h1{
+        margin-top: 8px;
+        font-weight: 600;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .services .services_contaent .description button{
+        margin-top: 10px;
+        padding: 10px 30px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #F5B7B1;
+    }
+    .services .services_contaent .description_Cards{
+        display: flex;
+        justify-content: center;
+    }
+    .services .services_contaent .description_Cards .first_card_collum, .services .services_contaent .description_Cards .second_card_collum {
+        flex-basis: 50%;
+    }
+    .services .services_contaent .description_Cards .first_card_collum{
+        margin-top: 80px;
+    }
+    .services .services_contaent .description_Cards .first_card_collum .card_body, .services .services_contaent .description_Cards .second_card_collum .card_body {
+        background-color: #ffffff;
+        margin: 20px 10px;
+        padding: 30px 20px;
+        color: #111111;
+        border-radius: 5px;
+    }
+    .services .services_contaent .description_Cards .first_card_collum .card_body .fas, .services .services_contaent .description_Cards .second_card_collum .card_body .far, .services .services_contaent .description_Cards .second_card_collum .card_body .fas{
+        padding: 15px;
+        font-size: 22px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+    .services .services_contaent .description_Cards .first_card_collum .card_body .fa-project-diagram{
+        background-color: #F5B7B1;
+    }
+    .services .services_contaent .description_Cards .first_card_collum .card_body .fa-briefcase{
+        background-color: #FF00FF;
+    }
+    .services .services_contaent .description_Cards .second_card_collum .card_body .fa-lightbulb{
+        background-color: #6495ED;
+    }
+    .services .services_contaent .description_Cards .second_card_collum .card_body .fa-camera{
+       background-color: #CCCCFF;
+    }
+    .services .services_contaent .description_Cards .first_card_collum .card_body h3, .services .services_contaent .description_Cards .second_card_collum .card_body h3{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .services .services_contaent .description_Cards .first_card_collum .card_body p, .services .services_contaent .description_Cards .second_card_collum .card_body p{
+        color: #85929E  ;
+        font-weight: bold;
+        font-size: 14px;
+    }
+/* ========X===Services===X======== */
+
+/* ===========Creative========= */
+    .creative_container{
+        width: 100%;
+        background-color: #FADBD8;
+        padding: 50px;
+    }
+    .creative_container .creative_row{
+        display: flex;
+        justify-content: center;
+    }
+    .creative_container .creative_row .creative_colume1{
+        flex-basis: 30%;
+    }
+    .creative_container .creative_row .creative_colume2{
+        flex-basis: 30%;
+        padding: 70px 25px;
+        background-color: #ffffff;
+    }
+    .creative_container .creative_row .creative_colume1 img{
+        width: 100%;
+        height: auto;
+    }
+    .creative_container .creative_row .creative_colume2 h1{
+        color: #0000FF;
+        font-weight: bold;
+    }
+    .creative_container .creative_row .creative_colume2 p{
+        color: #85929E  ;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .creative_container .creative_row .creative_colume2 button{
+        margin-top: 10px;
+        padding: 10px 30px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #F5B7B1;
+    }
+/* ========X===Creative==X======= */
+
+/* ===========Do========== */
+    .do_banner{
+        width: 100%;
+        margin-top: 30px;
+        padding: 50px 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FADBD8;
+    }
+    .do_banner .heading h1{
+        color: #0000FF;
+        font-weight: bold;
+    }
+    .do_banner .button button{
+        margin-top: 10px;
+        padding: 10px 30px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #0000FF;
+    }
+/* =======X====Do====X====== */
+
+/* ===========Second Banner============ */
+    .second_bannner{
+        width: 100%;
+    }
+    .second_bannner .second_banner_row{
+        padding: 50px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second_bannner .second_banner_row .body_second1, .second_bannner .second_banner_row .body_second2{
+        flex-basis: 30%;
+        padding: 20px;
+    }
+    .second_bannner .second_banner_row .body_second1 img{
+        width: 100%;
+        object-fit: contain;
+        border: 1px solid rgb(233, 212, 212);
+        padding: 5px;
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    .second_bannner .second_banner_row .body_second1 .content h1{
+        color: #0000FF;
+        font-weight: bold;
+        font-size: 24px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .second_bannner .second_banner_row .body_second1 .content ul li span{
+        color: #0000FF;
+    }
+    .second_bannner .second_banner_row .body_second1 .content ul li p{
+        color: #85929E  ;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .second_bannner .second_banner_row .body_second2 .actual_body{
+        background-color: #0000FF;
+        padding: 40px 20px;
+        color: #ffffff;
+    }
+    .second_bannner .second_banner_row .body_second2 .actual_body h1{
+        font-weight: bold;
+    }
+    .second_bannner .second_banner_row .body_second2 .actual_body button{
+        margin-top: 10px;
+        padding: 10px 30px;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #F5B7B1;
+    }
+/* =========X==Second Banner==X========== */
+
+/* =========About======= */
+    .about_container{
+        padding: 20px;
+    }
+    .about_container .text_containr{
+        padding: 10px;
+    }
+    .about_container .text_containr h4{
+        font-size: 18px;
+    }
+    .about_container .text_containr h1{
+        font-weight: bold;
+        color: #0000FF;
+    }
+    .about_container .text_containr p{
+        margin: 0px;
+    }
+    .about_container .text_containr .sub_container{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about_container .text_containr .sub_container .card_about{
+        padding: 10px 50px;
+        background-color: #6495ED;
+    }
